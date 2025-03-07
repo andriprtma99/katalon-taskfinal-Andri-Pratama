@@ -1,0 +1,73 @@
+[38;5;112m[Appium][0m Welcome to Appium v2.16.2
+[38;5;112m[Appium][0m Non-default server args:
+[38;5;112m[Appium][0m { basePath: [32m'/wd/hub'[39m, loglevel: [32m'info'[39m, port: [33m10117[39m }
+[38;5;112m[Appium][0m Attempting to load driver uiautomator2...
+[38;5;112m[Appium][0m Appium REST http interface listener started on http://0.0.0.0:10117/wd/hub
+[38;5;112m[Appium][0m You can provide the following URLs in your client code to connect to this server:
+	http://192.168.1.7:10117/wd/hub
+	http://127.0.0.1:10117/wd/hub (only accessible from the same host)
+[38;5;112m[Appium][0m Available drivers:
+[38;5;112m[Appium][0m   - uiautomator2@4.0.3 (automationName 'UiAutomator2')
+[38;5;112m[Appium][0m No plugins have been installed. Use the "appium plugin" command to install the one(s) you want to use.
+[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m [90m{}[39m
+[38;5;86m[HTTP][0m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m6 ms - 111[39m [90m[39m
+[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m [90m{}[39m
+[38;5;86m[HTTP][0m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m1 ms - 111[39m [90m[39m
+[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session[39m [90m{"capabilities":{"firstMatch":[{"appium:app":"C:\\Users\\Andri\\Katalon Studio\\TAK Batch 9 - Test Mobile Automation\\APK\\Todo_2.0_APKPure.apk","appium:autoGrantPermissions":true,"appium:automationName":"uiautomator2","appium:deviceName":"Xiaomi Redmi Note 8 Pro (Android 11)","appium:fullReset":false,"appium:newCommandTimeout":1800,"appium:noReset":true,"appium:platformName":"ANDROID","appium:platformVersion":"11","appium:systemPort":10134,"appium:udid":"aezl6ttk4xai9l7t","platformName":"ANDROID"}]},"desiredCapabilities":{"appium:app":"C:\\Users\\Andri\\Katalon Studio\\TAK Batch 9 - Test Mobile Automation\\APK\\Todo_2.0_APKPure.apk","appium:autoGrantPermissions":true,"appium:automationName":"uiautomator2","appium:deviceName":"Xiaomi Redmi Note 8 Pro (Android 11)","appium:fullReset":false,"appium:newCommandTimeout":1800,"appium:noReset":true,"appium:platformName":"ANDROID","appium:platformVersion":"11","appium:systemPort":10134,"appium:udid":"aezl6ttk4xai9l7t"}}[39m
+[38;5;123m[BaseDriver][0m Ignoring capability 'appium:platformName=ANDROID' and using capability 'platformName=ANDROID'
+[38;5;123m[BaseDriver][0m The capabilities ["platformName"] are standard capabilities and do not require "appium:" prefix
+[38;5;112m[Appium][0m Attempting to find matching driver for automationName 'uiautomator2' and platformName 'ANDROID'
+[38;5;112m[Appium][0m The 'uiautomator2' driver was installed and matched caps.
+[38;5;112m[Appium][0m Will require it at C:\Users\Andri\.appium\node_modules\appium-uiautomator2-driver
+[38;5;99m[AppiumDriver@d607][0m Appium v2.16.2 creating new AndroidUiautomator2Driver (v4.0.3) session
+[38;5;99m[AppiumDriver@d607][0m Checking BaseDriver versions for Appium and AndroidUiautomator2Driver
+[38;5;99m[AppiumDriver@d607][0m Appium's BaseDriver version is 9.16.2
+[38;5;99m[AppiumDriver@d607][0m AndroidUiautomator2Driver's BaseDriver version is 9.16.2
+[38;5;140m[da777d9c][0m[38;5;-53m[AndroidUiautomator2Driver@4a52][0m Session created with session id: da777d9c-dff6-4121-b99c-e868c3e9df60
+[38;5;140m[da777d9c][0m[38;5;229m[ADB][0m Found 1 'build-tools' folders under 'C:\Users\Andri\.katalon\tools\android_sdk' (newest first):
+[38;5;140m[da777d9c][0m[38;5;229m[ADB][0m     C:\Users\Andri\.katalon\tools\android_sdk\build-tools\29.0.3
+[38;5;140m[da777d9c][0m[38;5;229m[ADB][0m Using 'adb.exe' from 'C:\Users\Andri\.katalon\tools\android_sdk\platform-tools\adb.exe'
+[38;5;140m[da777d9c][0m[38;5;-53m[AndroidUiautomator2Driver@4a52][0m Retrieving device list
+[38;5;140m[da777d9c][0m[38;5;-53m[AndroidUiautomator2Driver@4a52][0m Using device: aezl6ttk4xai9l7t
+[38;5;140m[da777d9c][0m[38;5;229m[ADB][0m Using 'adb.exe' from 'C:\Users\Andri\.katalon\tools\android_sdk\platform-tools\adb.exe'
+[38;5;140m[da777d9c][0m[38;5;123m[BaseDriver][0m Using local app 'C:\Users\Andri\Katalon Studio\TAK Batch 9 - Test Mobile Automation\APK\Todo_2.0_APKPure.apk'
+[38;5;140m[da777d9c][0m[38;5;229m[ADB][0m Getting device platform version
+[38;5;140m[da777d9c][0m[38;5;-53m[AndroidUiautomator2Driver@4a52][0m Relaxing hidden api policy
+[38;5;140m[da777d9c][0m[38;5;229m[ADB][0m Using 'aapt2.exe' from 'C:\Users\Andri\.katalon\tools\android_sdk\build-tools\29.0.3\aapt2.exe'
+[38;5;140m[da777d9c][0m[38;5;229m[ADB][0m Package name: 'com.avinashproduct.todo'
+[38;5;140m[da777d9c][0m[38;5;229m[ADB][0m Main activity name: 'com.avinashproduct.todo.SplashScreenActivity'
+[38;5;140m[da777d9c][0m[38;5;229m[ADB][0m Using 'apksigner.jar' from 'C:\Users\Andri\.katalon\tools\android_sdk\build-tools\29.0.3\lib\apksigner.jar'
+[38;5;140m[da777d9c][0m[38;5;-53m[AndroidUiautomator2Driver@4a52][0m Server packages are not going to be (re)installed
+[38;5;140m[da777d9c][0m[38;5;229m[ADB][0m Adding packages ["io.appium.settings","io.appium.uiautomator2.server","io.appium.uiautomator2.server.test"] to Doze whitelist
+[38;5;140m[da777d9c][0m[38;5;229m[ADB][0m 'C:\Users\Andri\Katalon Studio\TAK Batch 9 - Test Mobile Automation\APK\Todo_2.0_APKPure.apk' is signed with a non-default certificate
+[38;5;140m[da777d9c][0m[38;5;229m[ADB][0m The application at 'C:\Users\Andri\Katalon Studio\TAK Batch 9 - Test Mobile Automation\APK\Todo_2.0_APKPure.apk' will not be cached, because the device under test has confirmed the support of streamed installs
+[38;5;140m[da777d9c][0m[38;5;229m[ADB][0m The installation of 'Todo_2.0_APKPure.apk' took 19053ms
+[38;5;140m[da777d9c][0m[38;5;-53m[AndroidUiautomator2Driver@4a52][0m Starting UIAutomator2 server 7.2.3
+[38;5;140m[da777d9c][0m[38;5;-53m[AndroidUiautomator2Driver@4a52][0m Using UIAutomator2 server from 'C:\Users\Andri\.appium\node_modules\appium-uiautomator2-driver\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v7.2.3.apk' and test from 'C:\Users\Andri\.appium\node_modules\appium-uiautomator2-driver\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk'
+[38;5;140m[da777d9c][0m[38;5;-53m[AndroidUiautomator2Driver@4a52][0m Waiting up to 30000ms for UiAutomator2 to be online...
+[38;5;140m[da777d9c][0m[38;5;-53m[AndroidUiautomator2Driver@4a52][0m socket hang up
+[38;5;140m[da777d9c][0m[38;5;-53m[AndroidUiautomator2Driver@4a52][0m socket hang up
+[38;5;140m[da777d9c][0m[38;5;-53m[AndroidUiautomator2Driver@4a52][0m socket hang up
+[38;5;140m[da777d9c][0m[38;5;-53m[AndroidUiautomator2Driver@4a52][0m socket hang up
+[38;5;140m[da777d9c][0m[38;5;-53m[AndroidUiautomator2Driver@4a52][0m Determined the downstream protocol as 'W3C'
+[38;5;140m[da777d9c][0m[38;5;-53m[AndroidUiautomator2Driver@4a52][0m Screen already unlocked, doing nothing
+[38;5;140m[da777d9c][0m[38;5;-53m[AndroidUiautomator2Driver@4a52][0m Starting 'com.avinashproduct.todo/com.avinashproduct.todo.SplashScreenActivity' and waiting for 'com.avinashproduct.todo/com.avinashproduct.todo.SplashScreenActivity'
+[38;5;140m[da777d9c][0m[38;5;99m[AppiumDriver@d607][0m New AndroidUiautomator2Driver session created successfully, session da777d9c-dff6-4121-b99c-e868c3e9df60 added to master session list
+[38;5;140m[da777d9c][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session [39m[32m200[39m [90m29141 ms - 1376[39m [90m[39m
+[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m [90m{}[39m
+[38;5;86m[HTTP][0m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m1 ms - 111[39m [90m[39m
+[38;5;140m[da777d9c][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/da777d9c-dff6-4121-b99c-e868c3e9df60/timeouts[39m [90m{"implicit":60000}[39m
+[38;5;140m[da777d9c][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session/da777d9c-dff6-4121-b99c-e868c3e9df60/timeouts [39m[32m200[39m [90m5 ms - 14[39m [90m[39m
+[38;5;140m[da777d9c][0m[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/da777d9c-dff6-4121-b99c-e868c3e9df60/source[39m [90m{}[39m
+[38;5;140m[da777d9c][0m[38;5;-53m[AndroidUiautomator2Driver@4a52][0m Driver proxy active, passing request on via HTTP proxy
+[38;5;140m[da777d9c][0m[38;5;-53m[AndroidUiautomator2Driver@4a52][0m Replacing sessionId d1cb31cb-2db0-4ecd-9796-b0af47b421f2 with da777d9c-dff6-4121-b99c-e868c3e9df60
+[38;5;140m[da777d9c][0m[38;5;86m[HTTP][0m [37m<-- GET /wd/hub/session/da777d9c-dff6-4121-b99c-e868c3e9df60/source [39m[32m200[39m [90m83 ms - 6477[39m [90m[39m
+[38;5;140m[da777d9c][0m[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/da777d9c-dff6-4121-b99c-e868c3e9df60/screenshot[39m [90m{}[39m
+[38;5;140m[da777d9c][0m[38;5;86m[HTTP][0m [37m<-- GET /wd/hub/session/da777d9c-dff6-4121-b99c-e868c3e9df60/screenshot [39m[32m200[39m [90m428 ms - 71700[39m [90m[39m
+[38;5;140m[da777d9c][0m[38;5;86m[HTTP][0m [37m-->[39m [37mDELETE[39m [37m/wd/hub/session/da777d9c-dff6-4121-b99c-e868c3e9df60[39m [90m{}[39m
+[38;5;140m[da777d9c][0m[38;5;99m[AppiumDriver@d607][0m Removing session da777d9c-dff6-4121-b99c-e868c3e9df60 from our master session list
+[38;5;140m[da777d9c][0m[38;5;-53m[AndroidUiautomator2Driver@4a52][0m Did not get confirmation UiAutomator2 deleteSession worked; Error was: UnknownError: An unknown server-side error occurred while processing the command. Original error: 'DELETE /' cannot be proxied to UiAutomator2 server because the instrumentation process is not running (probably crashed). Check the server log and/or the logcat output for more details
+[38;5;140m[da777d9c][0m[38;5;-53m[AndroidUiautomator2Driver@4a52][0m Unable to remove system port forward: Error executing adbExec. Original error: 'Command 'C:\\Users\\Andri\\.katalon\\tools\\android_sdk\\platform-tools\\adb.exe -P 5037 -s aezl6ttk4xai9l7t forward --remove tcp\:10134' exited with code 1'; Command output: adb.exe: error: listener 'tcp:10134' not found
+
+[38;5;140m[da777d9c][0m[38;5;-53m[AndroidUiautomator2Driver@4a52][0m Restoring hidden api policy to the device default configuration
+[38;5;140m[da777d9c][0m[38;5;86m[HTTP][0m [37m<-- DELETE /wd/hub/session/da777d9c-dff6-4121-b99c-e868c3e9df60 [39m[32m200[39m [90m349 ms - 14[39m [90m[39m
