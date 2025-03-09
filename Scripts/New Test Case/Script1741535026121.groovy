@@ -17,18 +17,3 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Mobile.startApplication('C:\\Users\\Andri\\Katalon Studio\\TAK Batch 9 - Test Mobile Automation\\APK\\Todo_2.0_APKPure.apk', 
-    true)
-
-Mobile.tap(findTestObject('Object Repository/Page Awal/android.widget.TextView - Skip'), 0)
-
-Mobile.tap(findTestObject('Object Repository/Page Awal/android.widget.ImageButton'), 0)
-
-Mobile.sendKeys(findTestObject('Object Repository/Page Awal/android.widget.EditText - Enter task title'), 'Deadline document')
-
-Mobile.sendKeys(findTestObject('Object Repository/Page Awal/android.widget.EditText - Enter your task'), 'Membuat dokumen materi training')
-
-Mobile.tap(findTestObject('Object Repository/Page Awal/android.widget.EditText - Set Date'), 0)
-
-Mobile.closeApplication()
-
